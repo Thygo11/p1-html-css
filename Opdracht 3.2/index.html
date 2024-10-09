@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opdracht 3.2</title>
+</head>
+<body>
+ 
+  <form action="result.html" method="post">
+
+  <div>
+<label for="firstname">Voornaam</label>
+<input type="text" id="firstname" name="firstname" required onkeydown="return /[a-zA-Z]/i.test(event.key)">
+</div>
+
+<div>
+<label for="surname">Achternaam</label>
+<input type="text" name="surname" id="surname" required onkeydown="return /[a-zA-Z]/i.test(event.key)">
+</div>
+
+<div>
+<label for="Gender">Geslacht</label>
+<div>
+<label for="male">Man</label>
+  <input type="radio" name="Gender" id="male" value="male" checked>
+<label for="female">Vrouw</label>
+  <input type="radio" name="Gender" id="female" value="female">
+</div>
+</div>
+<div>
+  <label for="adres">Straat met huisnummer</label>
+  <input type="text" name="adres" id="adres">
+</div>
+
+<div>
+<label for="zip code">Postcode</label>
+<input type="text" name="zip code" id="zip code">
+</div>
+
+<div>
+<label for="city">Stad</label>
+<input type="text" name="city" id="city">
+</div>
+
+<div>
+<label for="country">Land</label>
+<input type="text" name="country" id="country">
+</div>
+
+<div>
+<label for="citizen number">BSN-nummer</label>
+<input type="text"  name="citizen number" id="citizen number" maxlength="9">
+</div>
+
+<div>
+<label for="Holiday">Vakantiebestemming</label>
+</div>
+<div>
+<label for="spain">Spanje</label>
+<input type="radio" name="Holiday" id="spain">
+</div>
+<div>
+<label for="england">Engeland</label>
+<input type="radio" name="Holiday" id="Engeland">
+</div>
+<div>
+<label for="united states">Amerika</label>
+<input type="radio" name="Holiday" id="united states">
+</div>
+<div>
+<label for="date">Datum van vertrek</label>
+<input type="date" id="date" name="date" min="2024 08-10">
+</div>
+
+<div>
+<label for="date2">Datum van terugkomst</label>
+<input type="date" name="date2" id="date2">
+</div>
+
+<div>
+  <label for="Persons">Hoeveelheid personen</label>
+  </div>
+  <div>
+  <label for="1">1 Reisgenoot</label>
+  <input type="radio" name="1" id="1 Reisgenoot">
+  </div>
+  <div>
+  <label for="2">2 Reisgenoten</label>
+  <input type="radio" name="Persons" id="2 Reisgenoten">
+  </div>
+  <div>
+  <label for="3">3 Reisgenoten</label>
+  <input type="radio" name="Persons" id="3 Reisgenoten">
+  </div>
+  <div>
+<label for="4">4 Reisgenoten</label>
+<input type="radio" name="Persons" id="4 Reisgenoten">
+</div>
+
+<br>
+<div>
+<label for="e-mail">E-mail</label>
+<input type="email" name="e-mail" id="E-mail">
+</div>
+<div>
+<label for="password">Wachtwoord</label>
+<input type="password" name="password" id="password">
+</div>
+<div>
+<button type="submit">Boek nu</button>
+</div>
+
+</body>
+</html>
