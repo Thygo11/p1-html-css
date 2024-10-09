@@ -1,0 +1,9 @@
+th, td{
+border:ridge 1px;width: 50px;
+}
+h1{
+color: orange;
+}
+thead{
+    color: orange;
+}
