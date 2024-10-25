@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+.imgauto {
+display: flex;
+align-items: start;
+width: 7%;
+height: 70%;
+
+}
+.hoofdstuk1 {
+background-color: yellow;
+height: 25vh;
+
+}
+.hoofdstuk2 {
+background-color: orange;
+height: 25vh;
+}
+.hoofdstuk3 {
+background-color: green;
+height: 25vh;
+}
+.background {
+background-color: red;
+height: 25vh;
+}
+@media screen
